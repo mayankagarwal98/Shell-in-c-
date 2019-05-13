@@ -1,0 +1,2 @@
+shell : cd.c echo.c foreground.c main.c reminder.c env_var.c background.c clock.c    ls.c pinfo.c substr.c job_command.c
+	gcc -o shell -w -g cd.c echo.c foreground.c main.c reminder.c env_var.c background.c clock.c   ls.c pinfo.c substr.c job_command.c
